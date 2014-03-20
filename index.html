@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>2048</title>
+  <title>2048: Corruption</title>
 
   <link href="style/main.css" rel="stylesheet" type="text/css">
   <link rel="shortcut icon" href="favicon.ico">
@@ -21,13 +21,14 @@
 <body>
   <div class="container">
     <div class="heading">
-      <h1 class="title">2048</h1>
+      <h1 class="title">2048: Corruption</h1>
       <div class="scores-container">
         <div class="score-container">0</div>
         <div class="best-container">0</div>
       </div>
     </div>
     <p class="game-intro">Join the numbers and get to the <strong>2048 tile!</strong></p>
+    <p class="game-intro">Beware the corruption tiles. Clean out any corrupted tiles, or you'll never hit 2048!</p>
 
     <div class="game-container">
       <div class="game-message">
@@ -74,13 +75,29 @@
     <p class="game-explanation">
       <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same number touch, they <strong>merge into one!</strong>
     </p>
-    <hr>
     <p>
-    <strong class="important">Note:</strong> This site is the official version of 2048. You can play it on your phone via <a href="http://git.io/2048">http://git.io/2048.</a> All other apps or sites are derivatives or fakes, and should be used with caution.
+      Beware +1 and -1 tiles. They can match with and corrupt any tile. You'll
+      want to cancel them out or combine them into useful blank "eraser" tiles.
+    </p>
+    <p>
+      Eraser tiles can also appear at any time. They might hurt or help you.
+      Use them to get rid of the corruption, but make sure you don't erase your
+      good tiles!
+    </p>
+    <p>
+      You will also lose points for any corruption matches you make, unless you
+      can convert them nicely back into a power of 2.
     </p>
     <hr>
     <p>
-    Created by <a href="http://gabrielecirulli.com" target="_blank">Gabriele Cirulli.</a> Based on <a href="https://itunes.apple.com/us/app/1024!/id823499224" target="_blank">1024 by Veewo Studio</a> and conceptually similar to <a href="http://asherv.com/threes/" target="_blank">Threes by Asher Vollmer.</a>
+    <strong class="important">Note:</strong> This is <strong>not</strong> the official version of 2048.
+    </p>
+    <hr>
+    <p>
+     Created by <a href="http://www.chipx86.com/">Christian Hammond</a>.
+    </p>
+    <p>
+     Based on 2048, created by <a href="http://gabrielecirulli.com" target="_blank">Gabriele Cirulli.</a> 2048 was based on <a href="https://itunes.apple.com/us/app/1024!/id823499224" target="_blank">1024 by Veewo Studio</a> and conceptually similar to <a href="http://asherv.com/threes/" target="_blank">Threes by Asher Vollmer.</a>
     </p>
     <div class="sharing">
       <a href="https://twitter.com/share" class="twitter-share-button" data-text="Check out 2048, a game where you join numbers to score high! #2048game" data-via="gabrielecirulli" data-url="http://git.io/2048" data-counturl="http://gabrielecirulli.github.io/2048/">Tweet</a>
