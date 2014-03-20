@@ -16,11 +16,12 @@ body {
   clear: both; }
 
 h1.title {
-  font-size: 80px;
+  font-size: 50px;
   font-weight: bold;
   margin: 0;
   display: block;
-  float: left; }
+  text-align: center;
+}
 
 @-webkit-keyframes move-up {
   0% {
@@ -50,8 +51,9 @@ h1.title {
     opacity: 0; } }
 
 .scores-container {
-  float: right;
-  text-align: right; }
+  text-align: center;
+  margin-bottom: 1em;
+}
 
 .score-container, .best-container {
   position: relative;
@@ -380,6 +382,11 @@ hr {
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
         font-size: 10px; } }
+
+  .tile.tile-corrupted .tile-inner {
+    color: #f9fff2;
+    background: #c2e189; }
+
 
 @-webkit-keyframes appear {
   0% {
